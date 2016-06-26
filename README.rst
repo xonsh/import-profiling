@@ -3,6 +3,9 @@ Some xonsh-related importe profiling.
 
 May run with the following::
 
+    $ env PYTHONPATH=. profimp --html "import with_pkg_resources_pyg" > with_pkg_resources_pyg.html
+    $ env PYTHONPATH=. profimp --html "import without_pkg_resources_pyg" > without_pkg_resources_pyg.html
+
     $ env PYTHONPATH=. profimp --html "import with_pkg_resources" > with_pkg_resources.html
     $ env PYTHONPATH=. profimp --html "import without_pkg_resources" > without_pkg_resources.html
 
